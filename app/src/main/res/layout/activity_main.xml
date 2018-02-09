@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.projecttest.MainActivity">
+
+    <TextView
+        android:id="@+id/atm"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Automated Teller Machines (ATM)"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/bank"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Banks"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/bikestands"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Bike Stands"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/bodybuilding"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Body Building Centers"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/bus_stops"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Bus Stops"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/churches"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Churches"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Coffee Shops"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/departments"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Departments"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/faculty"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Faculties"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/fire_fighters"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Fire Fighters"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/food_delivery"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Food Delivery"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/gas_stations"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Gas Stations"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/hair_Care"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Hair Care"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/health_center"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Health Centers"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/hostels"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Hostels"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/parking_lots"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Parking Lots"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/pharmacy"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Pharmaceutical Shops"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/post_office"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Post Office"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/public_toilet"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Public Toilet"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/roads"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Roads"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/schools"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Secondary Schools"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/sports"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Sports"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/stores"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Stores"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/zoo"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Zoo"
+        android:textSize="18sp"/>
+
+</LinearLayout>
+</ScrollView>
