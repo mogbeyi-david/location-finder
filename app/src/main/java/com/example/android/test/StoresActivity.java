@@ -24,7 +24,7 @@ public class StoresActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("New Market" , "New Market Stores" , R.mipmap.ic_launcher));
+        words.add(new Category("New Market" , "New Market Stores" , R.mipmap.store));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

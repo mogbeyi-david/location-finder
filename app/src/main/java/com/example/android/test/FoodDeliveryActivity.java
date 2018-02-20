@@ -23,7 +23,7 @@ public class FoodDeliveryActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Office at New Market" , "Foodie" , R.mipmap.ic_launcher));
+        words.add(new Category("Office at New Market" , "Foodie" , R.mipmap.foodie));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

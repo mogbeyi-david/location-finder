@@ -24,7 +24,7 @@ public class SportsActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Sports Complex" , "Sports" , R.mipmap.ic_launcher));
+        words.add(new Category("Sports Complex" , "Sports" , R.mipmap.sports));
 
 
 

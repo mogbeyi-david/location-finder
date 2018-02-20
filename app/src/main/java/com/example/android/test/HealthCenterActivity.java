@@ -23,7 +23,7 @@ public class HealthCenterActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Health Center directly  opposite Alumni hall of residence" , "Health Center" , R.mipmap.ic_launcher));
+        words.add(new Category("Health Center directly  opposite Alumni hall of residence" , "Health Center" , R.mipmap.health1));
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);
         final ListView listview = (ListView) findViewById(R.id.list);

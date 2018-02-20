@@ -23,13 +23,13 @@ public class BusStopActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Car pack between angola and mozambuique hostel" , "Hall" , R.mipmap.ic_launcher));
-        words.add(new Category("In front of the Postgraduate hostel" , "PG" , R.mipmap.ic_launcher));
-        words.add(new Category("Cross roads that leads to awolowo hall" , "Awo" , R.mipmap.ic_launcher));
-        words.add(new Category("The Zebra crossing a little afar of in front of moremi hall" , "Moremi" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly in front of Alumni hall" , "Alumni" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly in front of Fajuyi Hall" , "Faj" , R.mipmap.ic_launcher));
-        words.add(new Category("In front of the Ecobank directly opposite the student union building" , "SUB" , R.mipmap.ic_launcher));
+        words.add(new Category("Car pack between angola and mozambuique hostel" , "Hall" , R.mipmap.bus1));
+        words.add(new Category("In front of the Postgraduate hostel" , "PG" , R.mipmap.bus2));
+        words.add(new Category("Cross roads that leads to awolowo hall" , "Awo" , R.mipmap.bus3));
+        words.add(new Category("The Zebra crossing a little afar of in front of moremi hall" , "Moremi" , R.mipmap.bus4));
+        words.add(new Category("Directly in front of Alumni hall" , "Alumni" , R.mipmap.bus5));
+        words.add(new Category("Directly in front of Fajuyi Hall" , "Faj" , R.mipmap.bus6));
+        words.add(new Category("In front of the Ecobank directly opposite the student union building" , "SUB" , R.mipmap.bus7));
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);
         final ListView listview = (ListView) findViewById(R.id.list);

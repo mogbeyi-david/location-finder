@@ -24,7 +24,7 @@ public class ZooActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Obafemi Awolowo University Zoo" , "OAU Zoo" , R.mipmap.ic_launcher));
+        words.add(new Category("Obafemi Awolowo University Zoo" , "OAU Zoo" , R.mipmap.zoo));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

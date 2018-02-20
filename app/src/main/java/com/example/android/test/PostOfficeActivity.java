@@ -24,7 +24,7 @@ public class PostOfficeActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Obafemi Awolowo University Post Office" , "Post Office" , R.mipmap.ic_launcher));
+        words.add(new Category("Obafemi Awolowo University Post Office" , "Post Office" , R.mipmap.post_office1));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

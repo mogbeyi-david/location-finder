@@ -20,16 +20,16 @@ public class AtmActivity extends AppCompatActivity {
 
         ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("ICT Building, Computer Department" , "Skye Bank ATM ICT" , R.mipmap.ic_launcher));
-        words.add(new Category("In Front of ODLT" , "GTB ATM ODLT" , R.mipmap.ic_launcher));
-        words.add(new Category("Opposite Student Union Building" , "Skye Bank ATM SUB" , R.mipmap.ic_launcher));
-        words.add(new Category("Opposite Yellow House" , "Ecobank ATM" , R.mipmap.ic_launcher));
-        words.add(new Category("First Bank, Banking Area" , "First Bank ATM" , R.mipmap.ic_launcher));
-        words.add(new Category("Wema Bank, Banking Area" , "Wema Bank ATM" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly in Front of Moremi Hall" , "First Bank ATM Moremi" , R.mipmap.ic_launcher));
-        words.add(new Category("Skye Bank, Banking Area" , "Skye Bank ATM" , R.mipmap.ic_launcher));
-        words.add(new Category("UBA, Banking Area" , "UBA ATM" , R.mipmap.ic_launcher));
-        words.add(new Category("GTB, Banking Area" , "GTB ATM" , R.mipmap.ic_launcher));
+        words.add(new Category("ICT Building, Computer Department" , "Skye Bank ATM ICT" , R.mipmap.atm));
+        words.add(new Category("In Front of ODLT" , "GTB ATM ODLT" , R.mipmap.atm1));
+        words.add(new Category("Opposite Student Union Building" , "Skye Bank ATM SUB" , R.mipmap.atm2));
+        words.add(new Category("Opposite Yellow House" , "Ecobank ATM" , R.mipmap.atm3));
+        words.add(new Category("First Bank, Banking Area" , "First Bank ATM" , R.mipmap.atm4));
+        words.add(new Category("Wema Bank, Banking Area" , "Wema Bank ATM" , R.mipmap.atm5));
+        words.add(new Category("Directly in Front of Moremi Hall" , "First Bank ATM Moremi" , R.mipmap.atm6));
+        words.add(new Category("Skye Bank, Banking Area" , "Skye Bank ATM" , R.mipmap.atm7));
+        words.add(new Category("UBA, Banking Area" , "UBA ATM" , R.mipmap.atm8));
+        words.add(new Category("GTB, Banking Area" , "GTB ATM" , R.mipmap.atm9));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

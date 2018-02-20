@@ -23,11 +23,11 @@ public class BikeStandActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("The car pack in front of Angola and Mozambuique hall" , "AngloMoz Bike Stands" , R.mipmap.ic_launcher));
-        words.add(new Category("The junction at the right hand side of ETF" , "Health Center Bike Stand" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly in front of PG hall" , "Post Graduate Hall Bike Stand" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly in front of moremi hall" , "Moremi Bike Stand" , R.mipmap.ic_launcher));
-        words.add(new Category("The Car pack in front of Fajuyi hall" , "Fajuyi Hall Bike Stand" , R.mipmap.ic_launcher));
+        words.add(new Category("The car pack in front of Angola and Mozambuique hall" , "AngloMoz Bike Stands" , R.mipmap.bike1));
+        words.add(new Category("The junction at the right hand side of ETF" , "Health Center Bike Stand" , R.mipmap.bike2));
+        words.add(new Category("Directly in front of PG hall" , "Post Graduate Hall Bike Stand" , R.mipmap.bike3));
+        words.add(new Category("Directly in front of moremi hall" , "Moremi Bike Stand" , R.mipmap.bike4));
+        words.add(new Category("The Car pack in front of Fajuyi hall" , "Fajuyi Hall Bike Stand" , R.mipmap.bike5));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

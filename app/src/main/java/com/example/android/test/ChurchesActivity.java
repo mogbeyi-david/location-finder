@@ -24,11 +24,11 @@ public class ChurchesActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Religious Ground" , "Charis Fellowship International" , R.mipmap.ic_launcher));
-        words.add(new Category("Religious Ground" , "Our Lady of Perpetual Light" , R.mipmap.ic_launcher));
-        words.add(new Category("Religious Ground" , "Kings Word RCCG" , R.mipmap.ic_launcher));
-        words.add(new Category("Religious Ground" , "Deeper Life Campus Fellowship" , R.mipmap.ic_launcher));
-        words.add(new Category("Religious Ground" , "Latter Glory of God Students Fellowship" , R.mipmap.ic_launcher));
+        words.add(new Category("Religious Ground" , "Charis Fellowship International" , R.mipmap.church1));
+        words.add(new Category("Religious Ground" , "Our Lady of Perpetual Light" , R.mipmap.church2));
+        words.add(new Category("Religious Ground" , "Kings Word RCCG" , R.mipmap.church3));
+        words.add(new Category("Religious Ground" , "Deeper Life Campus Fellowship" , R.mipmap.church4));
+        words.add(new Category("Religious Ground" , "Latter Glory of God Students Fellowship" , R.mipmap.church5));
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);
         final ListView listview = (ListView) findViewById(R.id.list);

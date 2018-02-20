@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
+    android:background="@color/black"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     >
@@ -10,13 +12,13 @@
         android:layout_width="88dp"
         android:layout_height="88dp"
         android:src="@mipmap/ic_launcher"
-        android:padding="16dp"
-        android:background="#FFF7DA"
+        android:background="@color/black"
         />
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="88dp"
+        android:background="@color/black"
         android:orientation="vertical"
         android:paddingLeft="16dp"
         >

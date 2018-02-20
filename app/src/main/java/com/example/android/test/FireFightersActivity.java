@@ -23,7 +23,7 @@ public class FireFightersActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Before the banks at the bank area" , "Fire Fighters" , R.mipmap.ic_launcher));
+        words.add(new Category("Before the banks at the bank area" , "Fire Fighters" , R.mipmap.fire1));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

@@ -23,8 +23,8 @@ public class CoffeeShopsActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Adjacent to ODLT II" , "Kays Chippy" , R.mipmap.ic_launcher));
-        words.add(new Category("Beside Architecture Studio" , "Kays Chippy Architecture" , R.mipmap.ic_launcher));
+        words.add(new Category("Adjacent to ODLT II" , "Kays Chippy" , R.mipmap.coffee1));
+        words.add(new Category("Beside Architecture Studio" , "Kays Chippy Architecture" , R.mipmap.coffee2));
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);
         final ListView listview = (ListView) findViewById(R.id.list);

@@ -24,7 +24,7 @@ public class GasStationsActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Opposite parks and gardens at the school gate" , "OAU Gas Station" , R.mipmap.ic_launcher));
+        words.add(new Category("Opposite parks and gardens at the school gate" , "OAU Gas Station" , R.mipmap.gas));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

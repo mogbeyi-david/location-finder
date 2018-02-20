@@ -41,7 +41,8 @@
         <activity android:name=".PostOfficeActivity" />
         <activity android:name=".StoresActivity" />
         <activity android:name=".FacultyActivity" />
-        <activity android:name=".DepartmentActivity"></activity>
+        <activity android:name=".DepartmentActivity" />
+        <activity android:name=".ChurchesActivity"></activity>
     </application>
 
 </manifest>

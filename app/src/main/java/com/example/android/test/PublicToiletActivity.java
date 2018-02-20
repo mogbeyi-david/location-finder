@@ -23,7 +23,7 @@ public class PublicToiletActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Use the hostel or departmental toilets" , "Public Toilets" , R.mipmap.ic_launcher));
+        words.add(new Category("Use the hostel or departmental toilets" , "Public Toilets" , R.mipmap.toilet1));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

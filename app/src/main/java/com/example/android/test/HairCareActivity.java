@@ -24,8 +24,8 @@ public class HairCareActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Inside Awolowo Hall" , "Awolowo Hall Haircare" , R.mipmap.ic_launcher));
-        words.add(new Category("Inside Angola Hall" , "Angola Hall Haircare" , R.mipmap.ic_launcher));
+        words.add(new Category("Inside Awolowo Hall" , "Awolowo Hall Haircare" , R.mipmap.hair3));
+        words.add(new Category("Inside Angola Hall" , "Angola Hall Haircare" , R.mipmap.hair5));
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);
         final ListView listview = (ListView) findViewById(R.id.list);

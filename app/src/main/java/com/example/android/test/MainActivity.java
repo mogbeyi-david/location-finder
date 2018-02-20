@@ -89,21 +89,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView churches = (TextView) findViewById(R.id.churches);
-
-        // Set a click listener on that View
-        churches.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers category is clicked on.
-            @Override
-            public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
-                Intent churchesIntent = new Intent(MainActivity.this, ChurchesActivity.class);
-
-                // Start the new activity
-                startActivity(churchesIntent);
-            }
-        });
-
         TextView coffee_shops = (TextView) findViewById(R.id.coffee_shops);
 
         // Set a click listener on that View
@@ -358,5 +343,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(departmentIntent);
             }
         });
+
+        TextView church = (TextView) findViewById(R.id.churches);
+
+        // Set a click listener on that View
+        church.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link NumbersActivity}
+                Intent churchIntent = new Intent(MainActivity.this, ChurchesActivity.class);
+
+                // Start the new activity
+                startActivity(churchIntent);
+            }
+        });
+
+
     }
 }

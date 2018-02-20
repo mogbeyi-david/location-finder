@@ -24,8 +24,8 @@ public class PharmacyActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("New Market" , "New Market Pharmacy" , R.mipmap.ic_launcher));
-        words.add(new Category("Pharmacy opposite the student union building, behind  the EcoBank" , "Pharmacy at SUB" , R.mipmap.ic_launcher));
+        words.add(new Category("New Market" , "New Market Pharmacy" , R.mipmap.pharmacy1));
+        words.add(new Category("Pharmacy opposite the student union building, behind  the EcoBank" , "Pharmacy at SUB" , R.mipmap.pharmacy2));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

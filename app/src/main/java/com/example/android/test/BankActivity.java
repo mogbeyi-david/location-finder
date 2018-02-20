@@ -23,16 +23,16 @@ public class BankActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Banking Area" , "Wema Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "First Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Skye Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "United Bank of Africa UBA" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Guarantee Trust Bank GTB" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Zenith Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Access Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Microfinance Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Near the Student Union Building, Directly Opposite Yellow House" , "EcoBank" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly Opposite the Student Union Building (SUB)" , "Skye Bank SUB" , R.mipmap.ic_launcher));
+        words.add(new Category("Banking Area" , "Wema Bank" , R.mipmap.bank1));
+        words.add(new Category("Banking Area" , "First Bank" , R.mipmap.bank2));
+        words.add(new Category("Banking Area" , "Skye Bank" , R.mipmap.bank3));
+        words.add(new Category("Banking Area" , "United Bank of Africa UBA" , R.mipmap.bank4));
+        words.add(new Category("Banking Area" , "Guarantee Trust Bank GTB" , R.mipmap.bank5));
+        words.add(new Category("Banking Area" , "Zenith Bank" , R.mipmap.bank6));
+        words.add(new Category("Banking Area" , "Access Bank" , R.mipmap.bank7));
+        words.add(new Category("Banking Area" , "Microfinance Bank" , R.mipmap.bank8));
+        words.add(new Category("Near the Student Union Building, Directly Opposite Yellow House" , "EcoBank" , R.mipmap.bank9));
+        words.add(new Category("Directly Opposite the Student Union Building (SUB)" , "Skye Bank SUB" , R.mipmap.bank10));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

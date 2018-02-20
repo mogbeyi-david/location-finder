@@ -23,8 +23,8 @@ public class BodyBuildingActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Block F, Awolowo hall" , "Belsh Fitness Center Awolowo Hall" , R.mipmap.ic_launcher));
-        words.add(new Category("Block 3, Topmost floor" , "Belsh Fitness Center Fajuyi Hall" , R.mipmap.ic_launcher));
+                words.add(new Category("Block F, Awolowo hall" , "Belsh Fitness Center Awolowo Hall" , R.mipmap.gym1));
+        words.add(new Category("Block 3, Topmost floor" , "Belsh Fitness Center Fajuyi Hall" , R.mipmap.gym2));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

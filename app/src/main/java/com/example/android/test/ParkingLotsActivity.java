@@ -23,13 +23,13 @@ public class ParkingLotsActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Parking lot between angol and mozambuique hostel" , "Anglomoz Parking Lot" , R.mipmap.ic_launcher));
-        words.add(new Category("Parking Lot in front of health center" , "Health Center Parking Lot" , R.mipmap.ic_launcher));
-        words.add(new Category("Parking lot in front of moremi hall" , "Moremi Parking Lot" , R.mipmap.ic_launcher));
-        words.add(new Category("Parking lot i  front of fajuyi hall" , "Fajuyi Parking Lot" , R.mipmap.ic_launcher));
-        words.add(new Category("Parking lot in front of moremi hall" , "Yellow House Parking Lot" , R.mipmap.ic_launcher));
-        words.add(new Category("Parking lot in front of White House" , "White House Parking Lot" , R.mipmap.ic_launcher));
-        words.add(new Category("Parking lot in front of biological sciences" , "Biological Sciences Parking Lot" , R.mipmap.ic_launcher));
+        words.add(new Category("Parking lot between angol and mozambuique hostel" , "Anglomoz Parking Lot" , R.mipmap.park1));
+        words.add(new Category("Parking Lot in front of health center" , "Health Center Parking Lot" , R.mipmap.park2));
+        words.add(new Category("Parking lot in front of moremi hall" , "Moremi Parking Lot" , R.mipmap.park3));
+        words.add(new Category("Parking lot i  front of fajuyi hall" , "Fajuyi Parking Lot" , R.mipmap.park4));
+        words.add(new Category("Parking lot in front of moremi hall" , "Yellow House Parking Lot" , R.mipmap.park5));
+        words.add(new Category("Parking lot in front of White House" , "White House Parking Lot" , R.mipmap.park6));
+        words.add(new Category("Parking lot in front of biological sciences" , "Biological Sciences Parking Lot" , R.mipmap.park7));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

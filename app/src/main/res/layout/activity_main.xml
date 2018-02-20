@@ -22,168 +22,168 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/tan_background"
+    android:background="@color/black"
     android:orientation="vertical"
     tools:context="com.example.android.projecttest.MainActivity">
 
     <TextView
         android:id="@+id/atm"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/black"
         android:text="Automated Teller Machines (ATM)"
-        android:textSize="18sp"/>
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/bank"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/black"
         android:text="Banks"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/bikestands"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/black"
         android:text="Bike Stands"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/bodybuilding"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/black"
         android:text="Body Building Centers"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/bus_stops"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/black"
         android:text="Bus Stops"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/churches"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/black"
         android:text="Churches"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/coffee_shops"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/black"
         android:text="Coffee Shops"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/departments"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/black"
         android:text="Departments"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/faculty"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/black"
         android:text="Faculties"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/fire_fighters"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/black"
         android:text="Fire Fighters"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/food_delivery"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/black"
         android:text="Food Delivery"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/gas_stations"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/black"
         android:text="Gas Stations"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/hair_Care"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/black"
         android:text="Hair Care"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/health_center"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/black"
         android:text="Health Centers"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/hostels"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/black"
         android:text="Hostels"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/parking_lots"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/black"
         android:text="Parking Lots"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/pharmacy"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
+        android:background="@color/black"
         android:text="Pharmaceutical Shops"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/post_office"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/black"
         android:text="Post Office"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/public_toilet"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/black"
         android:text="Public Toilet"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/roads"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/black"
         android:text="Roads"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/sports"
         style="@style/CategoryStyle"
-        android:background="@color/category_family"
+        android:background="@color/black"
         android:text="Sports"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/stores"
         style="@style/CategoryStyle"
-        android:background="@color/category_colors"
+        android:background="@color/black"
         android:text="Stores"
         android:textSize="18sp"/>
 
     <TextView
         android:id="@+id/zoo"
         style="@style/CategoryStyle"
-        android:background="@color/category_phrases"
+        android:background="@color/black"
         android:text="Zoo"
         android:textSize="18sp"/>
 
