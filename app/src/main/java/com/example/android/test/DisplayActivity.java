@@ -36,7 +36,7 @@ public class DisplayActivity extends AppCompatActivity {
         String jsonResponse;
         Bundle bundle = getIntent().getExtras();
         String message = bundle.getString("message");
-        String urlJsonObj = "http://d9918088.ngrok.io/works/API/sandbox.php?place=" + message;
+        String urlJsonObj = "http://284b2d4b.ngrok.io/works/API/sandbox.php?place=" + message;
         urlJsonObj = urlJsonObj.replace(" " , "%20");
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Method.GET , urlJsonObj , null, new Response.Listener<JSONObject>(){
             @Override
@@ -61,7 +61,7 @@ public class DisplayActivity extends AppCompatActivity {
 
             }catch (JSONException e){
                 e.printStackTrace();
-                Toast.makeText(getApplicationContext() , "Please Check Your Internet Connection and Try Again" , Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext() , "Place Not Found" , Toast.LENGTH_LONG).show();
             }
 
             }
@@ -69,7 +69,7 @@ public class DisplayActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error){
                 error.printStackTrace();
-                Toast.makeText(getApplicationContext() , "The Place You Are Searching For is not Found in the Database"  , Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext() , "Please Check Your Internet Connection and Try Again"  , Toast.LENGTH_LONG).show();
             }
         });
         MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest);
