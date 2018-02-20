@@ -23,7 +23,25 @@
         <activity android:name=".DisplayActivity" />
         <activity android:name=".BikeStandActivity" />
         <activity android:name=".BodyBuildingActivity" />
-        <activity android:name=".BusStopActivity"></activity>
+        <activity android:name=".BusStopActivity" />
+        <activity android:name=".app.ChurchesActivity" />
+        <activity android:name=".CoffeeShopsActivity" />
+        <activity android:name=".FireFightersActivity" />
+        <activity android:name=".FoodDeliveryActivity" />
+        <activity android:name=".GasStationsActivity" />
+        <activity android:name=".HealthCenterActivity" />
+        <activity android:name=".HairCareActivity" />
+        <activity android:name=".HostelsActivity" />
+        <activity android:name=".ParkingLotsActivity" />
+        <activity android:name=".PharmacyActivity" />
+        <activity android:name=".PublicToiletActivity" />
+        <activity android:name=".RoadsActivity" />
+        <activity android:name=".SportsActivity" />
+        <activity android:name=".ZooActivity" />
+        <activity android:name=".PostOfficeActivity" />
+        <activity android:name=".StoresActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".DepartmentActivity"></activity>
     </application>
 
 </manifest>

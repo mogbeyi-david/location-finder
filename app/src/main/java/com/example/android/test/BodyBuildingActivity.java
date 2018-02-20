@@ -25,7 +25,6 @@ public class BodyBuildingActivity extends AppCompatActivity {
 
         words.add(new Category("Block F, Awolowo hall" , "Belsh Fitness Center Awolowo Hall" , R.mipmap.ic_launcher));
         words.add(new Category("Block 3, Topmost floor" , "Belsh Fitness Center Fajuyi Hall" , R.mipmap.ic_launcher));
-        words.add(new Category("Department of Physical and Health Education, Behind Student Union Building" , "School Body Building Center" , R.mipmap.ic_launcher));
 
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);

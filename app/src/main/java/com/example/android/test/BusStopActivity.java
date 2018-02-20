@@ -23,17 +23,13 @@ public class BusStopActivity extends AppCompatActivity {
         setContentView(R.layout.word_list);
         final ArrayList<Category> words = new ArrayList<Category>();
 
-        words.add(new Category("Banking Area" , "Wema Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "First Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Skye Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "United Bank of Africa UBA" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Guarantee Trust Bank GTB" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Zenith Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Access Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Banking Area" , "Microfinance Bank" , R.mipmap.ic_launcher));
-        words.add(new Category("Near the Student Union Building, Directly Opposite Yellow House" , "EcoBank" , R.mipmap.ic_launcher));
-        words.add(new Category("Directly Opposite the Student Union Building (SUB)" , "Skye Bank SUB" , R.mipmap.ic_launcher));
-
+        words.add(new Category("Car pack between angola and mozambuique hostel" , "Hall" , R.mipmap.ic_launcher));
+        words.add(new Category("In front of the Postgraduate hostel" , "PG" , R.mipmap.ic_launcher));
+        words.add(new Category("Cross roads that leads to awolowo hall" , "Awo" , R.mipmap.ic_launcher));
+        words.add(new Category("The Zebra crossing a little afar of in front of moremi hall" , "Moremi" , R.mipmap.ic_launcher));
+        words.add(new Category("Directly in front of Alumni hall" , "Alumni" , R.mipmap.ic_launcher));
+        words.add(new Category("Directly in front of Fajuyi Hall" , "Faj" , R.mipmap.ic_launcher));
+        words.add(new Category("In front of the Ecobank directly opposite the student union building" , "SUB" , R.mipmap.ic_launcher));
 
         CategoryAdapter adapter = new CategoryAdapter(this , words , R.color.category_numbers);
         final ListView listview = (ListView) findViewById(R.id.list);

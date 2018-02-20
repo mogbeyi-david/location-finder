@@ -36,7 +36,7 @@ public class DisplayActivity extends AppCompatActivity {
         String jsonResponse;
         Bundle bundle = getIntent().getExtras();
         String message = bundle.getString("message");
-        String urlJsonObj = "http://6495e5bf.ngrok.io/works/API/sandbox.php?place=" + message;
+        String urlJsonObj = "http://d9918088.ngrok.io/works/API/sandbox.php?place=" + message;
         urlJsonObj = urlJsonObj.replace(" " , "%20");
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Method.GET , urlJsonObj , null, new Response.Listener<JSONObject>(){
             @Override
@@ -59,17 +59,6 @@ public class DisplayActivity extends AppCompatActivity {
                 description_gate_text.setText(description_gate);
                 activities_text.setText(activities);
 
-
-//                String output = "";
-//
-//
-//                output += name_of_place;
-//                output += address;
-//                output += description;
-//                output += description_hostel;
-//                output += description_sub;
-//                output += description_gate;
-//                output += activities;
             }catch (JSONException e){
                 e.printStackTrace();
                 Toast.makeText(getApplicationContext() , "Please Check Your Internet Connection and Try Again" , Toast.LENGTH_LONG).show();

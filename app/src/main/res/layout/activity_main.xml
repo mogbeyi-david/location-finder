@@ -69,7 +69,7 @@
         android:textSize="18sp"/>
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/coffee_shops"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="Coffee Shops"
@@ -164,13 +164,6 @@
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
         android:text="Roads"
-        android:textSize="18sp"/>
-
-    <TextView
-        android:id="@+id/schools"
-        style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
-        android:text="Secondary Schools"
         android:textSize="18sp"/>
 
     <TextView
