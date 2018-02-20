@@ -36,7 +36,7 @@ public class DisplayActivity extends AppCompatActivity {
         String jsonResponse;
         Bundle bundle = getIntent().getExtras();
         String message = bundle.getString("message");
-        String urlJsonObj = "http://284b2d4b.ngrok.io/works/API/sandbox.php?place=" + message;
+        String urlJsonObj = "http://ibarapa.oauife.edu.ng/test/sandbox.php?place=" + message;
         urlJsonObj = urlJsonObj.replace(" " , "%20");
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Method.GET , urlJsonObj , null, new Response.Listener<JSONObject>(){
             @Override
